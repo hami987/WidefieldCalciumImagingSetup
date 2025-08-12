@@ -26,10 +26,6 @@ calcium-imaging-setup/
 ├── LICENSE-DOCS # Documentation license
 └── CHANGELOG.md # Project history
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🚀 Quick Start
@@ -38,19 +34,20 @@ Edit
 ```bash
 git clone https://github.com/USERNAME/calcium-imaging-setup.git
 cd calcium-imaging-setup
-2. Set up hardware
+```
+### 2. Set up hardware
 Follow the instructions in Hardware Setup.
 
-3. Install software
-bash
+### 3. Install software
+```bash
 Copy
 Edit
 pip install -r software/python/requirements.txt
-4. Run acquisition example
-bash
-Copy
-Edit
+```
+### 4. Run acquisition example
+```bash
 python software/python/acquisition_script.py
+```
 📖 Documentation
 Full documentation is in the docs/ folder:
 
